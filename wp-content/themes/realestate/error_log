@@ -1,0 +1,169 @@
+[31-Jul-2014 22:40:09 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/gregegan/public_html/markeim/wp-content/themes/realestate/printerfriendly-properties.php on line 1
+[31-Jul-2014 22:41:19 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/gregegan/public_html/markeim/wp-content/themes/realestate/printerfriendly-properties.php on line 1
+[31-Jul-2014 22:41:36 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/gregegan/public_html/markeim/wp-content/themes/realestate/printerfriendly-properties.php on line 1
+[31-Jul-2014 22:42:19 America/New_York] PHP Fatal error:  Call to undefined function get_header() in /home/gregegan/public_html/markeim/wp-content/themes/realestate/printerfriendly-properties.php on line 1
+[01-Aug-2014 02:43:29 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+	ORDER BY c.property_sort ASC, p.post_date DESC' at line 14 for query 
+	SELECT p.*
+	FROM wp_posts AS p
+	
+		LEFT JOIN (
+       		SELECT post_id AS ID,
+      			meta_value AS property_sort
+     		FROM wp_postmeta
+            WHERE meta_key  = 'property_sort'
+        ) AS c ON p.ID = c.ID
+		
+	WHERE p.post_status = 'publish'
+   	AND p.post_date < NOW()
+	AND post_type = 'properties'
+   	 AND ()
+	ORDER BY c.property_sort ASC, p.post_date DESC
+	
+[01-Aug-2014 02:44:35 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+	ORDER BY c.property_sort ASC, p.post_date DESC' at line 14 for query 
+	SELECT p.*
+	FROM wp_posts AS p
+	
+		LEFT JOIN (
+       		SELECT post_id AS ID,
+      			meta_value AS property_sort
+     		FROM wp_postmeta
+            WHERE meta_key  = 'property_sort'
+        ) AS c ON p.ID = c.ID
+		
+	WHERE p.post_status = 'publish'
+   	AND p.post_date < NOW()
+	AND post_type = 'properties'
+   	 AND ()
+	ORDER BY c.property_sort ASC, p.post_date DESC
+	
+[01-Aug-2014 02:45:31 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+	ORDER BY c.property_sort ASC, p.post_date DESC' at line 14 for query 
+	SELECT p.*
+	FROM wp_posts AS p
+	
+		LEFT JOIN (
+       		SELECT post_id AS ID,
+      			meta_value AS property_sort
+     		FROM wp_postmeta
+            WHERE meta_key  = 'property_sort'
+        ) AS c ON p.ID = c.ID
+		
+	WHERE p.post_status = 'publish'
+   	AND p.post_date < NOW()
+	AND post_type = 'properties'
+   	 AND ()
+	ORDER BY c.property_sort ASC, p.post_date DESC
+	
+[01-Aug-2014 02:45:48 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+	ORDER BY c.property_sort ASC, p.post_date DESC' at line 14 for query 
+	SELECT p.*
+	FROM wp_posts AS p
+	
+		LEFT JOIN (
+       		SELECT post_id AS ID,
+      			meta_value AS property_sort
+     		FROM wp_postmeta
+            WHERE meta_key  = 'property_sort'
+        ) AS c ON p.ID = c.ID
+		
+	WHERE p.post_status = 'publish'
+   	AND p.post_date < NOW()
+	AND post_type = 'properties'
+   	 AND ()
+	ORDER BY c.property_sort ASC, p.post_date DESC
+	
+[01-Aug-2014 02:46:06 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'xAND ()
+	ORDER BY c.property_sort ASC, p.post_date DESC' at line 14 for query 
+	SELECT p.*
+	FROM wp_posts AS p
+	
+		LEFT JOIN (
+       		SELECT post_id AS ID,
+      			meta_value AS property_sort
+     		FROM wp_postmeta
+            WHERE meta_key  = 'property_sort'
+        ) AS c ON p.ID = c.ID
+		
+	WHERE p.post_status = 'publish'
+   	AND p.post_date < NOW()
+	AND post_type = 'properties'
+   	 xAND ()
+	ORDER BY c.property_sort ASC, p.post_date DESC
+	
+[01-Aug-2014 02:46:29 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+	ORDER BY c.property_sort ASC, p.post_date DESC' at line 14 for query 
+	SELECT p.*
+	FROM wp_posts AS p
+	
+		LEFT JOIN (
+       		SELECT post_id AS ID,
+      			meta_value AS property_sort
+     		FROM wp_postmeta
+            WHERE meta_key  = 'property_sort'
+        ) AS c ON p.ID = c.ID
+		
+	WHERE p.post_status = 'publish'
+   	AND p.post_date < NOW()
+	AND post_type = 'properties'
+   	 AND ()
+	ORDER BY c.property_sort ASC, p.post_date DESC
+	
+[01-Aug-2014 02:46:43 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+	ORDER BY c.property_sort ASC, p.post_date DESC' at line 14 for query 
+	SELECT p.*
+	FROM wp_posts AS p
+	
+		LEFT JOIN (
+       		SELECT post_id AS ID,
+      			meta_value AS property_sort
+     		FROM wp_postmeta
+            WHERE meta_key  = 'property_sort'
+        ) AS c ON p.ID = c.ID
+		
+	WHERE p.post_status = 'publish'
+   	AND p.post_date < NOW()
+	AND post_type = 'properties'
+   	 AND ()
+	ORDER BY c.property_sort ASC, p.post_date DESC
+	
+[01-Aug-2014 02:47:24 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+	ORDER BY c.property_sort ASC, p.post_date DESC' at line 14 for query 
+	SELECT p.*
+	FROM wp_posts AS p
+	
+		LEFT JOIN (
+       		SELECT post_id AS ID,
+      			meta_value AS property_sort
+     		FROM wp_postmeta
+            WHERE meta_key  = 'property_sort'
+        ) AS c ON p.ID = c.ID
+		
+	WHERE p.post_status = 'publish'
+   	AND p.post_date < NOW()
+	AND post_type = 'properties'
+   	 AND ()
+	ORDER BY c.property_sort ASC, p.post_date DESC
+	
+[01-Aug-2014 02:48:21 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+	ORDER BY c.property_sort ASC, p.post_date DESC' at line 14 for query 
+	SELECT p.*
+	FROM wp_posts AS p
+	
+		LEFT JOIN (
+       		SELECT post_id AS ID,
+      			meta_value AS property_sort
+     		FROM wp_postmeta
+            WHERE meta_key  = 'property_sort'
+        ) AS c ON p.ID = c.ID
+		
+	WHERE p.post_status = 'publish'
+   	AND p.post_date < NOW()
+	AND post_type = 'properties'
+   	)
+	ORDER BY c.property_sort ASC, p.post_date DESC
+	
+[09-Sep-2014 13:20:48 UTC] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/gregegan/public_html/markeim/wp-content/themes/realestate/printerfriendly-properties.php on line 322
+[05-Oct-2014 10:08:14 UTC] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/gregegan/public_html/markeim/wp-content/themes/realestate/printerfriendly-properties.php on line 322
+[11-Oct-2014 17:21:46 UTC] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/gregegan/public_html/markeim/wp-content/themes/realestate/printerfriendly-properties.php on line 322
