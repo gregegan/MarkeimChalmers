@@ -163,7 +163,7 @@ get_header(); ?>
 				foreach( $recent_posts as $recent ){		
 				?>
 					<div class="box1<?php /*if($count < 4) { echo "box1"; } else { echo "box2"; }*/?>" <?php if($count == 4) { echo "style='clear:both;'"; }?>>
-						<a href="<?php echo get_permalink($recent["ID"]); ?>"><?php echo get_the_post_thumbnail($recent["ID"], 'thumbnail');  ?></a>
+						<a href="<?php echo get_permalink($recent["ID"]); ?>"><?php echo get_the_post_thumbnail($recent["ID"], 'thumbnail', array('alt'=>trim(strip_tags( $recent["post_title"] ))));  ?></a>
 						<p><?php echo $recent["post_title"]; ?></p>
 						<div class="act">
 							<?php echo $custom['property_comments'][0]; ?>

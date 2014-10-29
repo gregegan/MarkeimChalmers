@@ -189,7 +189,7 @@
    	}
 	
 	$querystr .= "
-	ORDER BY c.property_sort ASC, p.post_date DESC
+	ORDER BY cast(c.property_sort as unsigned) ASC, p.post_date DESC
 	";
  	
  	if(isset($_GET['debug'])) {
