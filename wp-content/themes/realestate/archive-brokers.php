@@ -77,8 +77,18 @@
 	.bio span{margin-top:15px; float:left;clear:both; }
 </style>
 <?php 
-if(have_posts()) : while(have_posts()) : the_post();
-$custom = get_post_custom(get_the_ID());
+
+//if(have_posts()) : while(have_posts()) : the_post();
+//$custom = get_post_custom(get_the_ID())
+
+$query_args = array(
+    'post_type' => 'brokers',
+    'posts_per_page' => 25
+$loop = new WP_Query( $query_args ) );;
+
+if ( $the_query->have_posts() ) : 
+	while ( $the_query->have_posts() ) :
+		$the_query->the_post();
 ?>
 
 <div class="bio"><a href="<?php the_permalink()?>">
