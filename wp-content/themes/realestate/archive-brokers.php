@@ -92,14 +92,17 @@ $query_args = array(
 $the_query = new WP_Query( $query_args );
 
 if ( $the_query->have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post();
+$brokerPhone = get_post_meta($post->ID, 'broker_phone', true);
+$brokerTitle = get_post_meta($post->ID, 'broker_title', true);
+$brokerEmail = get_post_meta($post->ID, 'broker_email', true);
 ?>
 
 <div class="bio"><a href="<?php the_permalink()?>">
 		<?php the_post_thumbnail(); ?>
 		<h3 style="font-weight:bold;color:#000;text-decoration:none;"><?php the_title(); ?></h3></a>
-		<span style="margin-top:0;display:none;"><?php echo $custom['broker_title'][0];?></span>
-		<span><b>Phone:</b> <?php echo $custom['broker_phone'][0];?></span>
-		<span><b>Email:</b> <a href="mailto:<?php echo $custom['broker_email'][0];?>"><?php echo $custom['broker_email'][0];?></a></span>
+		<span style="margin-top:0;display:none;"><?php echo $brokerTitle;?></span>
+		<span><b>Phone:</b> <?php echo $brokerPhone;?></span>
+		<span><b>Email:</b> <a href="mailto:<?php echo $brokerEmail;?>"><?php echo $brokerEmail;?></a></span>
 		
 </div>
 
