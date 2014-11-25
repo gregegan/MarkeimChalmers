@@ -1,0 +1,8 @@
+[19-Nov-2014 08:03:12 America/Chicago] PHP Warning:  require_once(/home4/markeim/public_html/wp-content/themes/realestate/lib/dompdf/lib/html5lib/Parser.php): failed to open stream: No such file or directory in /home4/markeim/public_html/wp-content/themes/realestate/lib/dompdf/dompdf_config.inc.php on line 320
+[19-Nov-2014 08:03:12 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '/home4/markeim/public_html/wp-content/themes/realestate/lib/dompdf/lib/html5lib/Parser.php' (include_path='.:/opt/php54/lib/php') in /home4/markeim/public_html/wp-content/themes/realestate/lib/dompdf/dompdf_config.inc.php on line 320
+[19-Nov-2014 08:03:14 America/Chicago] PHP Warning:  require_once(/home4/markeim/public_html/wp-content/themes/realestate/lib/dompdf/lib/html5lib/Parser.php): failed to open stream: No such file or directory in /home4/markeim/public_html/wp-content/themes/realestate/lib/dompdf/dompdf_config.inc.php on line 320
+[19-Nov-2014 08:03:14 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '/home4/markeim/public_html/wp-content/themes/realestate/lib/dompdf/lib/html5lib/Parser.php' (include_path='.:/opt/php54/lib/php') in /home4/markeim/public_html/wp-content/themes/realestate/lib/dompdf/dompdf_config.inc.php on line 320
+[19-Nov-2014 08:04:36 America/Chicago] PHP Fatal error:  Uncaught exception 'DOMPDF_Exception' with message 'An input file is required (i.e. input_file _GET variable).' in /home4/markeim/public_html/wp-content/themes/realestate/lib/dompdf/dompdf.php:200
+Stack trace:
+#0 {main}
+  thrown in /home4/markeim/public_html/wp-content/themes/realestate/lib/dompdf/dompdf.php on line 200
